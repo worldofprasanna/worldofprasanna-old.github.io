@@ -9,11 +9,11 @@
 title: World of Prasanna
 email: prasannacse2005@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Test description ... 
+  Random scribblings ..
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://worldofprasanna.github.io" # the base hostname & protocol for your site
+twitter_username: prasannacse2005
+github_username:  worldofprasanna
 
 # Build settings
 markdown: kramdown
