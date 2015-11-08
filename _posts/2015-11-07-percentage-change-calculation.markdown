@@ -34,14 +34,14 @@ then percentage = 300 %
 
 I ll show the absurd nature of maths in a tabular format,
 
-| sno 	| current_margin 	| previous_margin 	| percentage 	|
-|:------|-------------------|-------------------|---------------|
-|1  	| 0              	|-1.1            	| 100       	|
-|2  	| 1.1            	| 0              	| 100       	|
-|3  	| 1.1            	| -1.1           	| 200       	|
-|4  	| 1.1            	| -2.2           	| 300       	|
-|5  	| 2              	| 4              	| 200       	|
-|6  	| -4             	| -2             	| 50        	|
+| sno 	| previous_margin| current_margin 	 	| percentage 	|
+|:------|----------------|----------------------|---------------|
+|1  	|-1.1            | 0              		| 100       	|
+|2  	| 0              | 1.1            		| 100       	|
+|3  	| -1.1           | 1.1            		| 200       	|
+|4  	| -2.2           | 1.1            		| 300       	|
+|5  	| 4              | 2              		| 200       	|
+|6  	| -2             | -4             		| 50        	|
 
 
 I had chosen these 6 rows because they represent 3 key points,
