@@ -5,13 +5,13 @@ date:   2015-11-07 22:21:54 +0530
 categories: maths change-percentage
 ---
 
-Recently we calculated the increase in percentage for price between current month and previous month. It was a simple math and as an engineer the formula was on top of my head and coded it as below,
+Recently we calculated the increase in percentage for prices between current month and previous month. It was a simple math and as an engineer, the formula was on top of my head and coded it as below,
 
 {% highlight ruby %}
 percentage = (current_price - previous_price) * 100 / previous_price
 {% endhighlight %}
 
-This is straight forward and it says, how much is the change in price with respect to previous price. It worked like a charm till we faced the issue where previous_price was < 0. We simply ignored it as data issue as price can t be less than 0. But when we do the percentage in change for margin and other values where negative is allowed, our ship is destroyed. Because math got weird with 0,
+This is straight forward and it says, how much is the change in price with respect to the previous price. It worked like a charm till we faced the issue where previous_price was < 0. We simply ignored it as data issue as the price can t be less than 0. But when we do the percentage in change for margin and other values where negative is allowed, our ship was destroyed. Because math got weird with 0,
 
 eg: 
 {% highlight ruby %}
