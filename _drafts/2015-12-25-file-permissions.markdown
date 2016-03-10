@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "File Permission and Creator s personality"
-date:   2015-12-25 09:21:54 +0530
+<!-- date:   2015-12-25 09:21:54 +0530 -->
 categories: random unix
 ---
 
@@ -16,7 +16,7 @@ Just a random thought about file permission and what type of personality is the 
 
 To set the context :
 
-In the file permission mode eg: 764, 
+In the file permission mode eg: 764,
 
 first digit represents `owners permission` - 7,
 second digit represents `groups permission` - 6,
@@ -35,4 +35,3 @@ so 764 can be written as
 	all permission for the creator of file,
 	read and write permission for the group in which file belongs to,
 	read permission for others.
-
