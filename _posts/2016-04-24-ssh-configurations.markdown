@@ -14,7 +14,7 @@ Before that,
 
 This is the command to generate the private & public key pair combo, out of which you ll share the public key to the remote machine for authentication. Private key should be used from local machine to login to the remote machine.
 
-###authorized keys
+1. Authorized keys file
 
 	Go to the remote machine which you want to ssh into and create this file `~/.ssh/authorized_keys`. Now copy the generated public key into it. And after that you can login to that machine using,
 
@@ -28,7 +28,7 @@ Command :
 
   This will copy the public key to `somemachine`'s authorized_keys file and you can use the `tmp` private key to login to the machine.
 
-###ssh config
+2. ssh config file
 
 	Another way to login to frequently used machine is to create a file `.ssh/config` and copy the below information,
 
